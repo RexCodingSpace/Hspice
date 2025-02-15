@@ -1,0 +1,21 @@
+* nmos roff*
+記得.option post
++accurate=1
++ingold=2
++runlvl=6
+
+* source
+vvd vd gnd 0
+vvg vg gnd 0
+vvs vs gnd ss
+
+* ckt
+mm1 vd vg vs gnd n_18_mm L=2u w=7u
+
+* sim
+.dc ss 0 1.8 0.01 
+.print roff ='V(vs)/abs(i(mm1))'
+
+.lib "/RAID2/COURSE/AICIntro/AICIntro071/U18_model/U18_Spice_model/mm180_reg18_v124.lib" tt
+
+.end
