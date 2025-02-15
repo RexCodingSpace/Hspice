@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE '*****************'
+ avgpower         temper           alter#            
+    6.6761          25.0000        1                 

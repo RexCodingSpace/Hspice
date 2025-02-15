@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE ' '
+ gainmax          gbw              pm               f3db              
+ avgpower         temper           alter#            
+   70.9024         1.294e+07          failed         3.760e+03        
+  3.457e-04         25.0000        2                 

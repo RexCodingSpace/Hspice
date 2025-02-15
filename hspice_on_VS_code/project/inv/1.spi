@@ -1,0 +1,5 @@
+*INV subcircuit*
+.subckt Inverter vdd vin vout vss
+mn vout vin vss vss n_18 w=1.8u l=0.18u
+mp vout vin vdd vdd p_18 w=1.8u l=0.18u
+.ends Inverter

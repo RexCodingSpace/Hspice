@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "22:30:59 12/31/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\project\finaloncom\moscap.sp "
+* "runtitle" "vin1"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   1.1106        
++ vdd =   1.8000        
++ vin1 = 800.0000m       
++ vin2 = 800.0000m       
++ vout = 674.2123m       
++ vss =   0.            
++ x1.2 =   1.3896        
++ x1.3 = 593.1931m       
++ x1.4 = 593.3449m       
+***   END: Saved Operating Point ***                     

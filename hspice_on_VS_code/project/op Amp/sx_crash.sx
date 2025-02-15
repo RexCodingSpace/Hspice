@@ -1,0 +1,5 @@
+### Custom WaveView session file (version D-2010.06 build 1006) ###
+### saved at 20:39:08 on Sun Dec 18 2022 ###
+scalar list
+waveview_begin 1  stack  offset=0 name_b=0 mntr_b=0 geo=560:90:700:400 "name=waveview 1" 
+waveview_end

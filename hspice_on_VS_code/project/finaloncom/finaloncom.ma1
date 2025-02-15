@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE 'vin1'
+ gainmax          gbw              pm               temper            
+ alter#            
+  -11.0378           failed           failed          25.0000         
+ 2                 

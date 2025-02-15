@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "21:51:55 12/18/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\project\op amp\slewrate.sp "
+* "runtitle" "*op amp*"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   2.2737        
++ 2 =   2.9419        
++ 3 = 841.9237m       
++ 4 =   2.9299        
++ 5 =   2.0000        
++ 10 =   0.            
++ vdd =   3.3000        
++ vin1 =   2.0000        
++ vin2 =   0.            
++ vout =   2.0000        
++ vss =   0.            
+***   END: Saved Operating Point ***                     

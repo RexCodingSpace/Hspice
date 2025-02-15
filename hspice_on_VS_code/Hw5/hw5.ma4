@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE 'c:\for_hspice_code\project_file\hspice_on_vs_code\u18_model\u18_spice_m'
+ gainmax          gbw              pm               f3db              
+ avgpower         temper           alter#            
+   74.1733         1.267e+07          failed         2.528e+03        
+  3.522e-04         25.0000        5                 

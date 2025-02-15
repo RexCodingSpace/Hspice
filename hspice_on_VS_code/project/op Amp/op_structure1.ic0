@@ -1,0 +1,22 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "20:27:21 12/11/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\project\op amp\op_structure1.sp "
+* "runtitle" "*op amp*"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   2.4020        
++ 2 =   2.8099        
++ 3 = 783.5613m       
++ 4 = 783.5613m       
++ vdd =   3.3000        
++ vin1 =   2.0000        
++ vin2 =   2.0000        
++ vout =   1.3708        
++ vss =   0.            
+***   END: Saved Operating Point ***                     

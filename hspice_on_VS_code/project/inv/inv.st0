@@ -1,0 +1,48 @@
+***** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) winnt ******
+ Input File: c:\for_hspice_code\project_file\hspice_on_vs_code\project\inv\inv.s
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   User                 HOSTNAME: LAPTOP-5ELPVJPP
+ lic: HOSTID: "2016b940a889 2016b940a885 2016b940a886 2216b940a885" PID:      16
+ lic: Using FLEXlm license file:
+ lic: 27000@localhost
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2028/2008.120
+ lic: 1(in_use)/999(total) FLOATING license(s) on SERVER localhost
+ lic:
+ init: begin read circuit files,  cpu clock=  9.10E-02
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option method   = gear
+       option post
+       option acct
+       option runlvl   =     6.00
+ init: end read circuit files,  cpu clock=  1.63E-01 memory=    151 kb
+ init: begin check errors,  cpu clock=  1.63E-01
+ init: end check errors,  cpu clock=  1.83E-01 memory=    179 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.83E-01
+       establish matrix -- done,  cpu clock=  1.93E-01 memory=    181 kb
+       re-order matrix -- done,  cpu clock=  2.03E-01 memory=    182 kb
+ init: end setup matrix,  cpu clock=  2.03E-01 memory=    193 kb
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\project\inv\inv.sw0
+ sweep: dc dc0    begin, #sweeps=  19 cpu clock=  2.13E-01
+ sweep: dc dc0    end,  cpu clock=  2.23E-01 memory=    193 kb
+ dcop: begin dcop,  cpu clock=  2.23E-01
+ dcop: end dcop,  cpu clock=  2.33E-01 memory=    193 kb  tot_iter=       9
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

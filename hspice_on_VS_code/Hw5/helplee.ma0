@@ -1,0 +1,6 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE 'hspice_hw5_109511308'
+ dcgain           gbw              pm               f3db              
+ temper           alter#            
+    1.0939         3.390e+04          failed         6.828e+07        
+   25.0000        1                 

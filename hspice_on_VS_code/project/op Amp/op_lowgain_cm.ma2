@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='D-2010.03-SP2 32-BIT'
+.TITLE 'c:\for_hspice_code\project_file\hspice_on_vs_code\cic018.l'
+ avgpower         temper           alter#            
+  1.656e-04         25.0000        3                 

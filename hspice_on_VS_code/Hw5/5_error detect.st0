@@ -1,0 +1,69 @@
+***** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) winnt ******
+ Input File: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\5_error detec
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   User                 HOSTNAME: LAPTOP-5ELPVJPP
+ lic: HOSTID: "2016b940a885 2016b940a886 2216b940a885" PID:      10988
+ lic: Using FLEXlm license file:
+ lic: 27000@localhost
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2028/2008.120
+ lic: 1(in_use)/999(total) FLOATING license(s) on SERVER localhost
+ lic:
+ init: begin read circuit files,  cpu clock=  9.20E-02
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option post
+ init: end read circuit files,  cpu clock=  1.77E-01 memory=    280 kb
+ init: begin check errors,  cpu clock=  1.77E-01
+ init: end check errors,  cpu clock=  1.98E-01 memory=    410 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.98E-01
+       establish matrix -- done,  cpu clock=  2.11E-01 memory=    427 kb
+       re-order matrix -- done,  cpu clock=  2.19E-01 memory=    435 kb
+ init: end setup matrix,  cpu clock=  2.27E-01 memory=    467 kb
+ dcop: begin dcop,  cpu clock=  2.38E-01
+ dcop: end dcop,  cpu clock=  2.68E-01 memory=    467 kb  tot_iter=     260
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\5_error detect.ac
+ sweep: ac ac0    begin, #sweeps=8001 cpu clock=  2.91E-01
+ ac: frequency=    1.00E+00
+ ac: frequency=    6.31E+00
+ ac: frequency=    3.98E+01
+ ac: frequency=    2.51E+02
+ ac: frequency=    1.58E+03
+ ac: frequency=    1.00E+04
+ ac: frequency=    6.31E+04
+ ac: frequency=    3.98E+05
+ ac: frequency=    2.51E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.00E+08
+ sweep: ac ac0    end,  cpu clock=  4.68E-01 memory=    533 kb
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\5_error detect.tr
+ sweep: tran tran0    begin, stop_t=  1.00E-03 #sweeps=**** cpu clock=  4.86E-01
+ tran: time= 1.3998E-04 tot_iter=      22 conv_iter=      11 cpu clock= 5.00E-01
+ tran: time= 2.3998E-04 tot_iter=      26 conv_iter=      13 cpu clock= 5.06E-01
+ tran: time= 3.3998E-04 tot_iter=      30 conv_iter=      15 cpu clock= 5.18E-01
+ tran: time= 4.3998E-04 tot_iter=      34 conv_iter=      17 cpu clock= 5.31E-01
+ tran: time= 5.3998E-04 tot_iter=      38 conv_iter=      19 cpu clock= 5.39E-01
+ tran: time= 6.3998E-04 tot_iter=      42 conv_iter=      21 cpu clock= 5.51E-01
+ tran: time= 7.3998E-04 tot_iter=      46 conv_iter=      23 cpu clock= 5.61E-01
+ tran: time= 8.3998E-04 tot_iter=      50 conv_iter=      25 cpu clock= 5.72E-01
+ tran: time= 9.3998E-04 tot_iter=      54 conv_iter=      27 cpu clock= 5.84E-01
+ tran: time= 1.0000E-03 tot_iter=      58 conv_iter=      29 cpu clock= 5.94E-01
+ sweep: tran tran0    end,  cpu clock=  6.05E-01 memory=    468 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

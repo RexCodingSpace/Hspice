@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "22:23:15 12/18/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\project\op amp\output_swing.sp "
+* "runtitle" "c:\for_hspice_code\project_file\hspice_on_vs_code\cic018.l"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   2.1982        
++ temp =   1.9999        
++ vdd =   3.3000        
++ vin1 =   2.0000        
++ vin2 =   2.0000        
++ vout =   1.9993        
++ vss =   0.            
++ x1.2 =   3.0241        
++ x1.3 = 915.7895m       
++ x1.4 = 900.5057m       
++ x1.5 =   1.9993        
+***   END: Saved Operating Point ***                     

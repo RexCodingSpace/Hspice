@@ -1,0 +1,253 @@
+***** HSPICE -- D-2010.03-SP2 32-BIT (Aug 26 2010) winnt ******
+ Input File: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\hw5.sp
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   User                 HOSTNAME: LAPTOP-5ELPVJPP
+ lic: HOSTID: "0205857feb80 2016b940a885 2016b940a886 2216b940a885" PID:      17
+ lic: Using FLEXlm license file:
+ lic: 27000@localhost
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2028/2008.120
+ lic: 1(in_use)/999(total) FLOATING license(s) on SERVER localhost
+ lic:
+ init: begin read circuit files,  cpu clock=  9.30E-02
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option method   = gear
+       option post
+       option acct
+       option runlvl   =     6.00
+       option accura
+       option post
+ init: end read circuit files,  cpu clock=  1.93E-01 memory=    281 kb
+ init: begin check errors,  cpu clock=  1.93E-01
+ init: end check errors,  cpu clock=  2.13E-01 memory=    411 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  2.13E-01
+       establish matrix -- done,  cpu clock=  2.23E-01 memory=    429 kb
+       re-order matrix -- done,  cpu clock=  2.33E-01 memory=    437 kb
+ init: end setup matrix,  cpu clock=  2.33E-01 memory=    469 kb
+ dcop: begin dcop,  cpu clock=  2.43E-01
+ dcop: end dcop,  cpu clock=  2.53E-01 memory=    469 kb  tot_iter=     244
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\hw5.ma0
+ sweep: ac ac0    begin, #sweeps=8001 cpu clock=  2.73E-01
+ ac: frequency=    1.00E+00
+ ac: frequency=    6.31E+00
+ ac: frequency=    3.98E+01
+ ac: frequency=    2.51E+02
+ ac: frequency=    1.58E+03
+ ac: frequency=    1.00E+04
+ ac: frequency=    6.31E+04
+ ac: frequency=    3.98E+05
+ ac: frequency=    2.51E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.00E+08
+ sweep: ac ac0    end,  cpu clock=  4.16E-01 memory=    797 kb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  4.66E-01
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option method   = gear
+       option post
+       option acct
+       option runlvl   =     6.00
+       option accura
+       option post
+ init: end read circuit files,  cpu clock=  5.99E-01 memory=    282 kb
+ init: begin check errors,  cpu clock=  5.99E-01
+ init: end check errors,  cpu clock=  6.09E-01 memory=    412 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  6.09E-01
+       establish matrix -- done,  cpu clock=  6.19E-01 memory=    430 kb
+       re-order matrix -- done,  cpu clock=  6.29E-01 memory=    438 kb
+ init: end setup matrix,  cpu clock=  6.29E-01 memory=    470 kb
+ dcop: begin dcop,  cpu clock=  6.39E-01
+ dcop: end dcop,  cpu clock=  6.49E-01 memory=    470 kb  tot_iter=     246
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\hw5.ma1
+ sweep: ac ac0    begin, #sweeps=8001 cpu clock=  6.59E-01
+ ac: frequency=    1.00E+00
+ ac: frequency=    6.31E+00
+ ac: frequency=    3.98E+01
+ ac: frequency=    2.51E+02
+ ac: frequency=    1.58E+03
+ ac: frequency=    1.00E+04
+ ac: frequency=    6.31E+04
+ ac: frequency=    3.98E+05
+ ac: frequency=    2.51E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.00E+08
+ sweep: ac ac0    end,  cpu clock=  8.12E-01 memory=    798 kb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  8.52E-01
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option method   = gear
+       option post
+       option acct
+       option runlvl   =     6.00
+       option accura
+       option post
+ init: end read circuit files,  cpu clock=  9.85E-01 memory=    282 kb
+ init: begin check errors,  cpu clock=  9.85E-01
+ init: end check errors,  cpu clock=  9.95E-01 memory=    412 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  9.95E-01
+       establish matrix -- done,  cpu clock=  1.00E+00 memory=    430 kb
+       re-order matrix -- done,  cpu clock=  1.01E+00 memory=    438 kb
+ init: end setup matrix,  cpu clock=  1.02E+00 memory=    470 kb
+ dcop: begin dcop,  cpu clock=  1.02E+00
+ dcop: end dcop,  cpu clock=  1.03E+00 memory=    470 kb  tot_iter=     244
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\hw5.ma2
+ sweep: ac ac0    begin, #sweeps=8001 cpu clock=  1.05E+00
+ ac: frequency=    1.00E+00
+ ac: frequency=    6.31E+00
+ ac: frequency=    3.98E+01
+ ac: frequency=    2.51E+02
+ ac: frequency=    1.58E+03
+ ac: frequency=    1.00E+04
+ ac: frequency=    6.31E+04
+ ac: frequency=    3.98E+05
+ ac: frequency=    2.51E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.00E+08
+ sweep: ac ac0    end,  cpu clock=  1.20E+00 memory=    798 kb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  1.25E+00
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option method   = gear
+       option post
+       option acct
+       option runlvl   =     6.00
+       option accura
+       option post
+ init: end read circuit files,  cpu clock=  1.38E+00 memory=    282 kb
+ init: begin check errors,  cpu clock=  1.38E+00
+ init: end check errors,  cpu clock=  1.40E+00 memory=    412 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.40E+00
+       establish matrix -- done,  cpu clock=  1.41E+00 memory=    430 kb
+       re-order matrix -- done,  cpu clock=  1.41E+00 memory=    438 kb
+ init: end setup matrix,  cpu clock=  1.42E+00 memory=    470 kb
+ dcop: begin dcop,  cpu clock=  1.42E+00
+ dcop: end dcop,  cpu clock=  1.44E+00 memory=    470 kb  tot_iter=     244
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\hw5.ma3
+ sweep: ac ac0    begin, #sweeps=8001 cpu clock=  1.45E+00
+ ac: frequency=    1.00E+00
+ ac: frequency=    6.31E+00
+ ac: frequency=    3.98E+01
+ ac: frequency=    2.51E+02
+ ac: frequency=    1.58E+03
+ ac: frequency=    1.00E+04
+ ac: frequency=    6.31E+04
+ ac: frequency=    3.98E+05
+ ac: frequency=    2.51E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.00E+08
+ sweep: ac ac0    end,  cpu clock=  1.60E+00 memory=    798 kb
+>info:         ***** hspice job concluded
+ init: begin read circuit files,  cpu clock=  1.65E+00
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\XILINX\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\TI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\SIGNET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\PCI\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\LIN_TECH\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\FET\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\DIO\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\COMLINE\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BURR_BRN\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\BJT\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\behave\
+       option search   = C:\synopsys\Hspice_D-2010.03-SP2\PARTS\AD\
+       option post     =     2.00
+       option runlvl   =     6.00
+       option method   = gear
+       option post
+       option acct
+       option runlvl   =     6.00
+       option accura
+       option post
+ init: end read circuit files,  cpu clock=  1.77E+00 memory=    282 kb
+ init: begin check errors,  cpu clock=  1.77E+00
+ init: end check errors,  cpu clock=  1.79E+00 memory=    412 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  1.79E+00
+       establish matrix -- done,  cpu clock=  1.80E+00 memory=    430 kb
+       re-order matrix -- done,  cpu clock=  1.80E+00 memory=    438 kb
+ init: end setup matrix,  cpu clock=  1.81E+00 memory=    470 kb
+ dcop: begin dcop,  cpu clock=  1.82E+00
+ dcop: end dcop,  cpu clock=  1.83E+00 memory=    470 kb  tot_iter=     244
+ output: c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\hw5.ma4
+ sweep: ac ac0    begin, #sweeps=8001 cpu clock=  1.84E+00
+ ac: frequency=    1.00E+00
+ ac: frequency=    6.31E+00
+ ac: frequency=    3.98E+01
+ ac: frequency=    2.51E+02
+ ac: frequency=    1.58E+03
+ ac: frequency=    1.00E+04
+ ac: frequency=    6.31E+04
+ ac: frequency=    3.98E+05
+ ac: frequency=    2.51E+06
+ ac: frequency=    1.58E+07
+ ac: frequency=    1.00E+08
+ sweep: ac ac0    end,  cpu clock=  1.98E+00 memory=    798 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

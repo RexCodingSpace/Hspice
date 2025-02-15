@@ -1,0 +1,32 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "22:54:06 12/14/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\5_error detect.sp "
+* "runtitle" "*****************"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 = 255.0162m       
++ 2 = 537.9027m       
++ 3 = 537.9027m       
++ 4 =   1.5531        
++ 5 =   1.5531        
++ 9 =   1.5621        
++ 10 = 269.8252m       
++ 12 =  91.9497m       
++ 13 =   1.4992        
++ vb1 = 511.7239m       
++ vb2 =   1.1012        
++ vb3 = 547.6869m       
++ vb4 =   1.0461        
++ vcmo = 900.0000m       
++ vdd =   1.8000        
++ vinminus = 800.0000m       
++ vinplus = 800.0000m       
++ voutminus =   1.3523        
++ voutplus =   1.3523        
+***   END: Saved Operating Point ***                     

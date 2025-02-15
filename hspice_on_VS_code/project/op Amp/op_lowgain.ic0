@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "23:16:13 12/18/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\project\op amp\op_lowgain.sp "
+* "runtitle" "*op amp*"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 1 =   2.2737        
++ ac_1 =   0.            
++ vdd =   3.3000        
++ vin1 =   2.0000        
++ vin2 =   2.0000        
++ vout =   2.0000        
++ vss =   0.            
++ x1.2 =   2.9440        
++ x1.3 = 843.5363m       
++ x1.4 = 843.5363m       
++ x1.5 =   2.0000        
+***   END: Saved Operating Point ***                     

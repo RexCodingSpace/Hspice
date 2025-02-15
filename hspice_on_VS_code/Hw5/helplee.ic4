@@ -1,0 +1,32 @@
+* "simulator" "HSPICE" 
+* "version" "D-2010.03-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "00:28:47 12/15/2022 "
+* "netlist" "c:\for_hspice_code\project_file\hspice_on_vs_code\hw5\helplee.sp "
+* "runtitle" "c:\for_hspice_code\project_file\hspice_on_vs_code\u18_model\u18_spice"
+* time =    0.            
+* temperature =   25.0000        
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc=   1.0000p       
+.nodeset
++ 001 =   1.5041        
++ 111 = 541.7290m       
++ 222 = 541.7290m       
++ 555 =   1.5029        
++ 666 =   1.5029        
++ cmo = 900.0000m       
++ sll =   1.4833        
++ srr =   1.4833        
++ vb0 = 533.7496m       
++ vb1 = 529.7060m       
++ vb2 =   1.1265        
++ vb3 = 576.6475m       
++ vb4 =   1.0673        
++ vdd =   1.8000        
++ vi1 = 800.0000m       
++ vi2 = 800.0000m       
++ vout1 = 897.1731m       
++ vout2 = 897.1732m       
++ vss = 240.3742m       
+***   END: Saved Operating Point ***                     
